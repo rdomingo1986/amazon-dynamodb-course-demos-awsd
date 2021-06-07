@@ -1,15 +1,15 @@
-const { runScanTable } = require('./scan-table.js');
+const { ScanTable } = require('./scan-table.js');
 
-const { runDeleteItem } = require('./delete-item.js');
+const { DeleteItem } = require('./modules/delete-item-module.js');
 
 const util = require('util');
 
 const run = async function () {
   try { //*
-    var response = await runScanTable();
+    var response = await ScanTable();
     response.Items.forEach(function (item) {
       (async function () {
-        await runDeleteItem({
+        await DeleteItem({
           TableName: 'Books',
           Key: {
             'Author': {

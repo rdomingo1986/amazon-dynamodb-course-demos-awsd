@@ -16,5 +16,3 @@ const run = async function () {
 };
 
 run();
-
-module.exports.runScanTable = () => run();
