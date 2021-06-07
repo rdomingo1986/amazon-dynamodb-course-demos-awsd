@@ -10,7 +10,7 @@ const run = async function () {
       KeyConditionExpression:'Author = :author_name',
       ExpressionAttributeValues: {
         ':author_name': {
-          S: 'John Grisham'
+          S: process.argv[2] == undefined ? 'John Grisham' : process.argv[2]
         }
       },
       Limit: undefined,
