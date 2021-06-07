@@ -37,7 +37,7 @@ const run = async function () {
       ],
       GlobalSecondaryIndexes: [
         {
-          IndexName: 'CategoryIndex',
+          IndexName: 'CategoryGSIndex',
           KeySchema: [
             {
               AttributeName: 'Category',
@@ -52,7 +52,6 @@ const run = async function () {
       LocalSecondaryIndexes: [
         {
           IndexName: 'YearLSIndex',
-          
           KeySchema: [
             {
               AttributeName: 'Author',

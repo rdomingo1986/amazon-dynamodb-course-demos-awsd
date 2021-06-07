@@ -6,7 +6,7 @@ const run = async function () {
   try {
     var response = await dynamodb.query({
       TableName: 'Books',
-      IndexName: 'CategoryIndex',
+      IndexName: 'CategoryGSIndex',
       ProjectionExpression: undefined, //"Author, Title, Category, Formats",
       KeyConditionExpression:'#Cat = :category_name',
       ExpressionAttributeNames: {
