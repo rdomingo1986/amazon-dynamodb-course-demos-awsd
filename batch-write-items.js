@@ -23,6 +23,9 @@ booksFile.forEach(function (book) {
     },
     'Formats': {
       M: book.Formats
+    },
+    'Year': {
+      N: book.Year
     }
   };
   if(process.argv[2].includes('full')) {

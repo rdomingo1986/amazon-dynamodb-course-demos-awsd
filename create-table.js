@@ -19,6 +19,10 @@ const run = async function () {
         {
           AttributeName: 'Category',
           AttributeType: 'S'
+        },
+        {
+          AttributeName: 'Year',
+          AttributeType: 'N'
         }
       ],
       KeySchema: [
@@ -42,6 +46,25 @@ const run = async function () {
           ],
           Projection: {
             ProjectionType: 'ALL'
+          }
+        }
+      ],
+      LocalSecondaryIndexes: [
+        {
+          IndexName: 'YearLSIndex',
+          
+          KeySchema: [
+            {
+              AttributeName: 'Author',
+              KeyType: 'HASH'
+            },
+            {
+              AttributeName: 'Year',
+              KeyType: 'RANGE'
+            }
+          ],
+          Projection: {
+            ProjectionType: 'KEYS_ONLY'
           }
         }
       ]

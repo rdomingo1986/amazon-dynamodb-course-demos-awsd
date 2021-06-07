@@ -3,30 +3,50 @@
     "Author": "John Grisham",
     "Title": "The Rainmaker",
     "Category": "Suspense", 
-    "Formats": { "Hardcover": { "S": "J4SUKVGU"}, "Paperback": {"S": "D7YF4FCX"} }
+    "Formats": { "Hardcover": { "S": "J4SUKVGU"}, "Paperback": {"S": "D7YF4FCX"} },
+    "Year": "1997"
   },
   {
     "Author": "John Grisham",
     "Title": "The Firm",
     "Category": "Suspense", 
-    "Formats": { "Hardcover": { "S": "Q7QWE3U2"}, "Paperback": {"S": "ZVZAYY4F"}, "Audiobook": {"S": "DJ9KS9NM"} }
+    "Formats": { "Hardcover": { "S": "Q7QWE3U2"}, "Paperback": {"S": "ZVZAYY4F"}, "Audiobook": {"S": "DJ9KS9NM"} },
+    "Year": "1991"
   },
   {
     "Author": "James Patterson",
     "Title": "Along Came a Spider",
     "Category": "Suspense", 
-    "Formats": { "Hardcover": {"S": "C9NR6RJ7"}, "Paperback": {"S": "37JVGDZG"}, "Audiobook": {"S": "6348WX3U"} }
+    "Formats": { "Hardcover": {"S": "C9NR6RJ7"}, "Paperback": {"S": "37JVGDZG"}, "Audiobook": {"S": "6348WX3U"} },
+    "Year": "1993"
   },
   {
     "Author": "Dr. Seuss",
     "Title": "Green Eggs and Ham",
     "Category": "Children", 
-    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} }
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} },
+    "Year": "1960"
+  },
+  {
+    "Author": "Dr. Seuss",
+    "Title": "The Cat in the Hat",
+    "Category": "Children", 
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} },
+    "Year": "1957"
+  },
+  
+  {
+    "Author": "Dr. Seuss",
+    "Title": "And to Think That I Saw It on Mulberry Street",
+    "Category": "Children", 
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} },
+    "Year": "1937"
   },
   {
     "Author": "William Shakespeare",
     "Title": "Hamlet",
     "Category": "Drama", 
-    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} }
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} },
+    "Year": "1600"
   }
 ]
