@@ -1,4 +1,4 @@
-const { ScanTable } = require('./scan-table.js');
+const { ScanTable } = require('./modules/scan-table-module.js');
 
 const { DeleteItem } = require('./modules/delete-item-module.js');
 
