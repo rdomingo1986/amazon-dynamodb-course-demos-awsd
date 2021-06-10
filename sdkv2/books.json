@@ -1,0 +1,26 @@
+[
+  {
+    "Author": "John Grisham",
+    "Title": "The Firm",
+    "Category": "Suspense", 
+    "Formats": { "Hardcover": { "S": "Q7QWE3U2"}, "Paperback": {"S": "ZVZAYY4F"}, "Audiobook": {"S": "DJ9KS9NM"} }
+  },
+  {
+    "Author": "James Patterson",
+    "Title": "Along Came a Spider",
+    "Category": "Suspense", 
+    "Formats": { "Hardcover": {"S": "C9NR6RJ7"}, "Paperback": {"S": "37JVGDZG"}, "Audiobook": {"S": "6348WX3U"} }
+  },
+  {
+    "Author": "Dr. Seuss",
+    "Title": "Green Eggs and Ham",
+    "Category": "Children", 
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} }
+  },
+  {
+    "Author": "William Shakespeare",
+    "Title": "Hamlet",
+    "Category": "Drama", 
+    "Formats": { "Hardcover": {"S": "GVJZQ7JK"}, "Paperback": {"S": "A4TFUR98"}, "Audiobook": {"S": "XWMGHW96"} }
+  }
+]
